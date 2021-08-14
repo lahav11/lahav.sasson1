@@ -1,0 +1,17 @@
+﻿h2{
+    color: antiquewhite
+}
+h4{
+    color: lightgreen
+}
+p{
+    color:lightcoral
+}
+body {
+    color: lightgrey
+}
+
+body {
+    background-image: url("background_image.jpeg");
+    Background-repeat: no-repeat;
+}
