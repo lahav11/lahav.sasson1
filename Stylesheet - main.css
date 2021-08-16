@@ -1,0 +1,127 @@
+* {
+    font-family: "Noto sans";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 220px 180px 180px;
+    grid-template-rows: 250px 250px 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    grid-gap: 5px;    
+}
+
+/*Side bar style*/
+.side-bar{
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    /*background-image: linear-gradient(to top, rgb(158, 171, 231), #fff);*/
+    background-image: url("side_back.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ en
+/*Style main part page*/
+.main {
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    /*background-image: linear-gradient(to top, rgb(190, 210, 252), #fff);*/
+    background-image: url("main_back6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    background-color:rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 40px;
+}
+
+h1{
+    grid-column: 3 / 5;
+    grid-row: 2;
+    text-align: center;
+    color: white;
+  }
+
+h2{
+    padding-left: 40px;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+h4 {
+    display: inline;
+}
+
+/*Round the image on the side bar*/
+.my-image {
+    width: 90%;
+    margin-top: 40px;
+    border-radius: 110px;
+    margin-left: 20px;
+}
+
+/*Style of the icons of contacts details*/
+.icon {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+/*Style of the list of contact information, linkes and icons*/
+ul {
+    list-style: none;   
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px dotted #fff;
+}
+
+li {
+    padding-top: 40px;
+}
+
+p {
+    font-size: 25px;
+    padding-left: 60px;
+}
+
+.menu{
+    grid-column: 3 / 5;
+    display: inline-block;
+    padding-left: 320px;
+    padding-top: 10px;
+    align-self: center;
+}
+
+button {
+    width: 200px;
+    color:  black;
+    background-color: rgb(247, 223, 243);
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 32px;
+    border-radius: 100px;
+    cursor:pointer;
+}
+
+/*Add space between the buttons*/
+span:before{
+    content:" "; 
+    display:inline-block; 
+    width:20px;
+}
+
+/* Change the color of links on hover */
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+/* Add color to the active link */
+a.active {
+    background-color: #2b8ae2;
+    color: white;
+  }
+  
